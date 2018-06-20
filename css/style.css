@@ -1,0 +1,34 @@
+.main-title {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.aside-right {
+    height: calc(100vh - 110px);
+    overflow: hidden;
+}
+.aside-right > .card {
+    height: 100%;
+    min-height: 434px;
+
+}
+i.material-icons {
+    cursor: pointer;
+}
+tr td:nth-child(1),
+tr td:nth-child(2),
+tr th:nth-child(1),
+tr th:nth-child(2){
+    width: 43%;
+}
+tr td:nth-child(3),
+tr th:nth-child(3) {
+    width: 4%;
+}
+tr td:nth-child(4),
+tr th:nth-child(4) {
+    width: 10px;
+}
+.alert.card .card-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
